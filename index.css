@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272822;
+    color: white;
+    height: 90px;
+    /* font-size: 20px; */
+
+}
+
+.content{
+    font-family: 'Potta One', cursive;
+}
+
+.container{
+    width: 50vw;
+    margin: auto;
+    /* background-color: red; */
+    padding: 32px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.logo{
+padding: 13px;
+
+}
+
+.logo img{
+     width: 65px;
+}
+
+.toolbar-item button{
+    cursor: pointer !important;
+    color: white !important;
+    border: 1px solid white !important;
+    border-radius: 2px !important;
+    padding: 5px 14px !important;
+}
+
+#watermark {
+     position: fixed; 
+     bottom: 0;
+      right: 0; 
+    }

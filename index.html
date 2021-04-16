@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CheatSheet By Arya Mishra</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+  </head>
+  <body>
+    <nav>
+      <span class="logo"> <img src="img/3319514-200.png" alt="" /> </span>
+      <div class="content center">This Html CheatSheet is for you !</div>
+    </nav>
+
+    <div class="container">
+
+      <div id="watermark">MADE BY ARYA MISHRA</div> 
+      <ol>
+
+        <!-- html boilerplate -->
+        <li> Html BoilerPlate : This is basic html for you.
+          <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        </li>
+
+
+        <br>
+        <br>
+<!-- image tag -->
+
+        <li>Image tag : This tag use to insert the image in the webpage.
+        <pre class="language-html"><code>&lt;img src="" alt=""&gt;</code></pre>
+      </li>
+
+      <br>
+      <br>
+    <!-- anchor tag -->
+      <li>Anchor Tag : This Tag use to link the another webpage
+        <pre class="language-html"><code>&lt;a href="http://"&gt;#&lt;/a&gt;</code></pre>
+      </li>
+
+      <br>
+      <br>
+
+      <!-- list items -->
+
+      <li>List : UnOrdered List <br>
+        The list items will be marked with bullets (small black circles)
+        <pre class="language-html"><code>&lt;ul&gt;
+  &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;li&gt;Tea&lt;/li&gt;
+  &lt;li&gt;Milk&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+      </li>
+<br>
+    
+      <li>List : Ordered List <br>
+        The list items will be marked with numbers
+        <pre class="language-html"><code>&lt;ol&gt;
+  &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;li&gt;Tea&lt;/li&gt;
+  &lt;li&gt;Milk&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+      </li>
+
+      <br>
+      
+      <li>List : Description List <br>
+        A description list is a list of terms, with a description of each term.
+<br>
+The &lt;dl&gt; tag defines the description list, the &lt;dt&gt; tag defines the term (name), and the &lt;dd&gt; tag describes each term:
+        <pre class="language-html"><code>&lt;dl&gt;      
+&lt;dt&gt;Coffee&lt;/dt&gt;
+  &lt;dd&gt;- black hot drink&lt;/dd&gt;
+&lt;dt&gt;Milk&lt;/dt&gt;
+  &lt;dd&gt;- white cold drink&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+      </li>
+
+      <br>
+      <br>
+
+<!-- Block level element -->
+
+      <li>HTML-  Block Element <br>
+        A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+
+          A block level element has a top and a bottom margin, whereas an inline element does not.
+          Some of the block Element's  and with one Example are:
+        <pre class="language-html"><code>&lt;div&gt;Hello World&lt;/div&gt; 
+<br>&lt;address&gt; &lt;article&gt; &lt;aside&gt; &lt;blockquote&gt; &lt;canvas&gt; 
+<br>&lt;dd&gt; &lt;div&gt; &lt;dl&gt; &lt;dt&gt; &lt;fieldset&gt; 
+<br>&lt;figcaption&gt; &lt;figure&gt; &lt;footer&gt; &lt;form&gt; &lt;h1&gt; -&lt;h6&gt; 
+<br>&lt;header&gt; &lt;hr&gt; &lt;li&gt; &lt;main&gt; &lt;nav&gt;
+<br>&lt;noscript&gt; &lt;ol&gt; &lt;p&gt; &lt;pre&gt; &lt;section&gt;
+<br>&lt;table&gt; &lt;tfoot&gt; &lt;ul&gt; &lt;video&gt; &lt;/video&gt;</code></pre>
+      </li>
+
+
+
+      
+      <br>
+      <br>
+
+      <!-- Inline element -->
+   
+      <li>HTML-  Inline Element <br>
+        An inline element does not start on a new line.
+
+        An inline element only takes up as much width as necessary.
+          Some of the Inline Element's  and with one Example are:
+        <pre class="language-html"><code>&lt;div&gt;Hello World&lt;/div&gt; 
+&lt;a&gt; &lt;abbr&gt; &lt;acronym&gt; &lt;b&gt; &lt;bdo&gt; &lt;big&gt; &lt;br&gt;<br>&lt;dd&gt; &lt;div&gt; &lt;dl&gt; &lt;dt&gt; &lt;fieldset&gt; 
+<br>&lt;button&gt;&lt;cite&gt;&lt;code&gt;&lt;dfn&gt;&lt;em&gt;&lt;i&gt;&lt;img&gt;
+<br>&lt;input&gt;&lt;kbd&gt;&lt;label&gt;&lt;map&gt;&lt;object&gt;&lt;output&gt;&lt;q&gt;
+<br>&lt;samp&gt;&lt;script&gt;&lt;select&gt;&lt;small&gt;&lt;span&gt;&lt;strong&gt;&lt;sub&gt;
+<br>&lt;sup&gt;&lt;textarea&gt;&lt;time&gt;&lt;tt&gt;&lt;var&gt;</code></pre>
+      </li>
+
+      <br>
+      <br>
+
+      <!-- Tables  -->
+       <li>Tables : <br>
+           Html table tag define the table. <br>
+           Each table row is defined with a &lt;tr&gt;tag. <br> 
+           Each table header is defined with a &lt;th&gt;tag. <br>
+           Each table data/cell is defined with a &lt;td&gt; tag. <br>
+            By default, the text in &lt;th&gt; elements are bold and centered.
+            By default, the text in &lt;td&gt; elements are regular and left-aligned.
+              <pre class="language-html"><code>&lt;table&gt;
+&lt;tr&gt;
+  &lt;th&gt;Firstname&lt;/th&gt;
+  &lt;th&gt;Lastname&lt;/th&gt;
+  &lt;th&gt;Age&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Jill&lt;/td&gt;
+  &lt;td&gt;Smith&lt;/td&gt;
+  &lt;td&gt;50&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Eve&lt;/td&gt;
+  &lt;td&gt;Jackson&lt;/td&gt;
+  &lt;td&gt;94&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+              </code></pre>
+      </li>
+
+
+      <!-- Classes in html -->
+      <br>
+      <br>
+
+      <li>Classes In Html : <br>
+        The class attribute is often used to point to a class name in a style sheet. 
+        It can also be used by a JavaScript to access and manipulate elements with the
+        specific class name.
+        
+        <pre class="language-html"><code>&lt;div class="city"&gt;
+&lt;h2&gt;London&lt;/h2&gt;
+&lt;p&gt;London is the capital of England.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+            </li>
+
+<!-- Html javascript -->
+
+            <br>
+            <br>
+
+            <li>HTML in Javascript : <br>  We can display the time using
+              the Javascript.Copy the below code to display the <br>
+              time on your webpage.
+              <pre class="language-html"><code>&lt;h1&gt;My First JavaScript&lt;/h1&gt;
+&lt;button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()"&gt;
+Click me to display Date and Time.&lt;/button&gt;
+&lt;p id="demo"&gt;&lt;/p&gt;</code>
+</pre>
+            </li>
+<br>
+
+      <!-- Forms in html -->
+<h1 class="heading1">Form's</h1>
+<br>
+              <li>Form's are used to collect user input.The user input is most often sent to a server for processing.
+                <pre class="language-html">
+<code>&lt;h2&gt;HTML Forms&lt;/h2&gt;
+&lt;form action="/action_page.php"&gt;
+&lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;
+&lt;input type="text" id="fname" name="fname" value="John"&gt;&lt;br&gt;
+&lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt;
+&lt;input type="text" id="lname" name="lname" value="Doe"&gt;&lt;br&gt;&lt;br&gt;
+&lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt; 
+&lt;p&gt;If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".&lt;/p&gt;</code>
+                </pre>
+              </li>
+              
+              
+              <!-- input tag -->
+              <br>
+              <br>
+              <li>Input Tag :Input tag is used to take Input in Html form's from the User
+                <pre class="language-html">
+<code>&lt;form&gt;
+  &lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt;
+  &lt;input type="text" id="fname" name="fname"&gt;&lt;br&gt;
+  &lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt;
+  &lt;input type="text" id="lname" name="lname"&gt;
+&lt;/form&gt;</code>
+</pre>
+              </li>
+
+
+              <br>
+              <br>
+              <li>Input Tag :Here are some Input tags that are used in Html <br>
+                while creating the forms in Webpage.You can copy any one of <br>
+                it to check how it work.
+                <pre class="language-html"><code>&lt;input type="button"&gt;
+&lt;input type="checkbox"&gt;
+&lt;input type="color"&gt;
+&lt;input type="date"&gt;
+&lt;input type="datetime-local"&gt;
+&lt;input type="email"&gt;
+&lt;input type="file"&gt;
+&lt;input type="hidden"&gt;
+&lt;input type="image"&gt;
+&lt;input type="month"&gt;
+&lt;input type="number"&gt;
+&lt;input type="password"&gt;
+&lt;input type="radio"&gt;
+&lt;input type="range"&gt;
+&lt;input type="reset"&gt;
+&lt;input type="search"&gt;
+&lt;input type="submit"&gt;
+&lt;input type="tel"&gt;
+&lt;input type="text"&gt;
+&lt;input type="time"&gt;
+&lt;input type="url"&gt;
+&lt;input type="week"&gt;
+</code></pre>
+              </li>
+    </ol> 
+    </div>
+  </body>
+</html>
